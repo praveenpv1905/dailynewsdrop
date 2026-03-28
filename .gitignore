@@ -1,0 +1,29 @@
+# Secrets - NEVER commit these
+.env
+
+# Generated post images (can be large)
+generated_posts/
+
+# Database (local only, Railway uses ephemeral storage)
+*.db
+*.sqlite
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Virtual envs
+venv/
+env/
+.venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
